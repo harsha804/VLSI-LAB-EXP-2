@@ -235,6 +235,7 @@ endmodule
 **2 BIT MAGNITUDE COMPARATOR:**
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-2/assets/122807039/f2a193b2-2672-4ced-95b5-d9c50392c410)
 
-**RESULT**
+**RESULT:**
+
 Thus the simulation and synthesis of ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, 2bit MAGNITUDE COMPARATOR using vivado is successfully completed and executed.
 
