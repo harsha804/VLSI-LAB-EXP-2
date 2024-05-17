@@ -2,31 +2,31 @@
 # DATE:27/02/2024
 # SIMULATION AND IMPLEMENTATION OF  COMBINATIONAL LOGIC CIRCUITS
 
-# AIM: 
+**AIM:** 
  To simulate and synthesis ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR using Xilinx ISE.
 
-# APPARATUS REQUIRED:
+**APPARATUS REQUIRED:**
 Xilinx 14.7
 Spartan6 FPGA
 
 **LOGIC DIAGRAM**
 
-# ENCODER
+**ENCODER**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/3cd1f95e-7531-4cad-9154-fdd397ac439e)
 
 
-# DECODER
+**DECODER**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/45a5e6cf-bbe0-4fd5-ac84-e5ad4477483b)
 
 
-# MULTIPLEXER
+**MULTIPLEXER**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/427f75b2-8e67-44b9-ac45-a66651787436)
 
 
-# DEMULTIPLEXER
+**DEMULTIPLEXER**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/1c45a7fc-08ac-4f76-87f2-c084e7150557)
 
@@ -37,7 +37,7 @@ Spartan6 FPGA
 
 
   
-# PROCEDURE:
+**PROCEDURE:**
 STEP:1 Start the vivado software, Select and Name the New project.
 
 STEP:2 Select the device family, device, package and speed.
@@ -52,9 +52,9 @@ STEP:6 Click the simulation to simulate the program and give the inputs and veri
 
 STEP:7 compare the output with truth table.
 
-# VERILOG CODE
+**VERILOG CODE**
 
- # 8-3 ENCODER:
+ **8-3 ENCODER:**
 module encoder(d,a,b,c);
 
 input [7:0]d; output a,b,c;
@@ -67,7 +67,7 @@ or (c,d[1],d[3],d[5],d[7]);
 
 endmodule
 
-# 3-8 DECODER:
+**3-8 DECODER:**
 module decoder(A,E,Y);
 
 input [1:0]A;
@@ -98,7 +98,7 @@ decoder_2_4 d2(A[1:0],~A[2],Y[7:4]);
 
 endmodule
 
-# 8-1 MULTIPLEXER:
+**8-1 MULTIPLEXER:**
 module multi(i,s,y);
 
 input[7:0]i;
@@ -135,7 +135,7 @@ end
 
 endmodule
 
-# 1-8 DEMULTIPLEXER:
+**1-8 DEMULTIPLEXER:**
 module demultiplexer(d1,d2,d3,d4,d5,d6,d7,d8,i,s0,s1,s2);
 
 input i,s0,s1,s2;
@@ -168,7 +168,7 @@ and g11(d8,s0,s1,s2,i);
 
 endmodule
 
-# 2 BIT MAGNITUDE COMPARATOR :
+**2 BIT MAGNITUDE COMPARATOR :**
 module mag_com(a,b,gt,it,eq);
 
 input [3:0]a,b;
@@ -219,22 +219,22 @@ end
 
 endmodule
 
-# OUTPUT WAVEFORM
-# ENCODER:
+**OUTPUT WAVEFORM**
+**ENCODER:**
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-2/assets/122807039/c2843a71-1d04-4d5e-8b88-d384c40853af)
 
-# DECODER:
+**DECODER:**
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-2/assets/122807039/3d3afe98-dac7-4a44-b106-334a07230304)
 
-# MULTIPLEXER:
+**MULTIPLEXER:**
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-2/assets/122807039/0a88044a-3354-4239-bc07-3aec2f731674)
 
-# DEMULTIPLEXER:
+**DEMULTIPLEXER:**
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-2/assets/122807039/4aa55c89-d6f0-4137-b3df-bb84d830e7b2)
 
-# 2 BIT MAGNITUDE COMPARATOR:
+**2 BIT MAGNITUDE COMPARATOR:**
 ![image](https://github.com/harsha804/VLSI-LAB-EXP-2/assets/122807039/f2a193b2-2672-4ced-95b5-d9c50392c410)
 
-# RESULT
+**RESULT**
 Thus the simulation and synthesis of ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, 2bit MAGNITUDE COMPARATOR using vivado is successfully completed and executed.
 
