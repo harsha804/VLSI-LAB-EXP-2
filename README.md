@@ -9,14 +9,14 @@
 Xilinx 14.7
 Spartan6 FPGA
 
-**LOGIC DIAGRAM**
+**LOGIC DIAGRAM:**
 
-**ENCODER**
+**ENCODER:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/3cd1f95e-7531-4cad-9154-fdd397ac439e)
 
 
-**DECODER**
+**DECODER:**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/45a5e6cf-bbe0-4fd5-ac84-e5ad4477483b)
 
@@ -31,7 +31,7 @@ Spartan6 FPGA
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/1c45a7fc-08ac-4f76-87f2-c084e7150557)
 
 
-# MAGNITUDE COMPARATOR
+**MAGNITUDE COMPARATOR**
 
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/b2fe7a05-6bf7-4dcb-8f5d-28abbf7ea8c2)
 
@@ -169,6 +169,7 @@ and g11(d8,s0,s1,s2,i);
 endmodule
 
 **2 BIT MAGNITUDE COMPARATOR :**
+
 module mag_com(a,b,gt,it,eq);
 
 input [3:0]a,b;
