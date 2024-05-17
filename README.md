@@ -1,7 +1,6 @@
 # EXP NO 2
 # DATE:27/02/2024
 # SIMULATION AND IMPLEMENTATION OF  COMBINATIONAL LOGIC CIRCUITS
-
 **AIM:** 
  To simulate and synthesis ENCODER, DECODER, MULTIPLEXER, DEMULTIPLEXER, MAGNITUDE COMPARATOR using Xilinx ISE.
 
@@ -12,6 +11,7 @@ Spartan6 FPGA
 **LOGIC DIAGRAM:**
 
 **ENCODER:**
+
 ![image](https://github.com/navaneethans/VLSI-LAB-EXP-2/assets/6987778/3cd1f95e-7531-4cad-9154-fdd397ac439e)
 
 
